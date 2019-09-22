@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+    /* set a root font size for the app, this is a technique to save our selfs some work in the future
+    - then use 'rem' units across the app.
+    - use % for root font size, usually default font size of browsers are 16px. so if we are targetting
+    10/16 = .625 ~ 62.5% of the default browser font
+    .625 * 16 = 10px
+    */
+
+html {
+    font-size: 62.5%; // this defines what 1 rem is
+}
+
+body {
+    box-sizing: border-box;
+}
