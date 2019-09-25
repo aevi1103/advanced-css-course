@@ -11,9 +11,10 @@
         position: relative;
     }
     
+    
     &:hover{
         transform: translateY(-.3rem);
-        box-shadow: 0 1rem 2rem rgba($color-black, .2);  /* offset, blur, spread, color */
+        box-shadow: 0 1rem 2rem $button-shadow;  /* offset, blur, spread, color */
     
         &::after{
             transform: scaleX(1.4) scaleY(1.6);
@@ -23,7 +24,7 @@
     
     &:active{
         transform: translateY(-.1rem);
-        box-shadow: 0 .5rem 1rem rgba($color-black, .2)
+        box-shadow: 0 .5rem 1rem $button-shadow
     }
     
     &--white {
@@ -32,6 +33,15 @@
 
         &::after {
             background-color: $color-white;   
+        }
+    }
+
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;   
         }
     }
     
@@ -71,12 +81,12 @@
     &:hover {
         background-color: $color-primary;
         color: $color-white;
-        box-shadow: 0 1rem 2rem rgba($color: $color-black, $alpha: .15);
+        box-shadow: 0 1rem 2rem $shadow;
         transform: translateY(-2px);
     }
 
     &:active {
-        box-shadow: 0 .5rem 1rem rgba($color: $color-black, $alpha: .15);
+        box-shadow: 0 .5rem 1rem $shadow;
         transform: translateY(0);
     }
 }

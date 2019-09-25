@@ -14,7 +14,9 @@
     position: relative;
 
     /* clip image */
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
 
     &__logo-box {
         /* position element, make is as absolute pah, the top and left is relative to its parent */
