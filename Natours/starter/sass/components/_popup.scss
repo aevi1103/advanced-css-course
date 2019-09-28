@@ -27,11 +27,27 @@
         opacity: 0;
         transform: translate(-50%, -50%) scale(.25);
         transition: all .5s .2s;
+
+        @include respond(tab-land) { 
+            width: 90%;
+        }
+
     }
 
     &__left {
         width: 34%;
         display: table-cell;
+
+        @include respond(tab-land) { 
+            width: 50%;
+            display: flex;
+            align-content: stretch;
+
+            // width: 100%;
+            // column-count: 2;
+            // column-gap: 0;
+            // display: inline-block;
+        } 
     }
 
     &__right {
@@ -39,6 +55,11 @@
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+
+        @include respond(tab-land) { 
+            width: 100%;
+            display: inline-block;
+        } 
     }
 
     &__text {
@@ -57,8 +78,7 @@
     &__img {
 
         display: block;
-        width: 100%;
-
+        width: 100%;  
     }
 
     //open state

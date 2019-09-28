@@ -14,11 +14,22 @@
     */
 
 html {
-    font-size: 62.5%; // this defines what 1 rem is
+    font-size: 62.5%; // this defines what 1 rem is, 10px
+
+    @include respond(big-desktop) { font-size: 75%; } // 1 rem = 12px, 12/16 = 75% 
+
+    @include respond(tab-land) { font-size: 56.25%; } // 1 rem = 9px, 9/16 = 56.25%
+    @include respond(tab-port) { font-size: 50%; } // 1 rem = 8px, 8/16 = 50%
+    @include respond(phone) { font-size: 25%; } // 1 rem = 4px, 4/16 = 25%
+
 }
 
 body {
     box-sizing: border-box;
     color: $color-grey-dark;
-    // padding: 3rem;
+    padding: 3rem;
+
+    @include respond(tab-port) { 
+        padding: 0;
+    } 
 }
