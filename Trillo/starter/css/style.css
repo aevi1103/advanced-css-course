@@ -187,6 +187,12 @@ User Nav
   color: var(--color-grey-light-4);
   align-self: flex-end; }
 
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
@@ -213,6 +219,5 @@ User Nav
   justify-content: space-between; }
 
 .hotel-view {
-  background-color: orangered;
   flex: 1;
   height: 80rem; }
