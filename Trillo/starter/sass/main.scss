@@ -1,5 +1,8 @@
 @import "./mixin";
 
 @import "./base";
-@import "./components";
+
+@import "./components/header";
+@import "./components/sidebar";
+
 @import "./layout";
