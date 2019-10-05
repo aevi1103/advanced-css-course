@@ -1,0 +1,225 @@
+[33mcommit a71ea1f7138b2be6cd2a4f2eb4f4dde2a06632c0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Fri Oct 4 22:40:55 2019 -0400
+
+    added gallery
+
+[33mcommit 820848e4049f8d4c6f5a98f28855c6e4935e954d[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Fri Oct 4 22:21:06 2019 -0400
+
+    completed sidebar
+
+[33mcommit 9fb1b1cb5f545ef47a864349b54697a2e44bd957[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Fri Oct 4 20:51:15 2019 -0400
+
+    setup layout for trillo project and style header
+
+[33mcommit 46d9daa548b2fe26241789cdb5957b0ece71c450[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Tue Oct 1 19:13:39 2019 -0400
+
+    added build scripsts
+
+[33mcommit fd2380b48101aed2c608ecb5a58304d143f81aad[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Mon Sep 30 21:26:43 2019 -0400
+
+    added build script complete
+
+[33mcommit 84c7825c62ff3624ecb4a523527df960fbba0214[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Mon Sep 30 20:48:23 2019 -0400
+
+    reinstall autoprefixer
+
+[33mcommit 4951c0763c3d36a2a6d4ca95d308c82fe46c6a3b[m
+Author: Aevi <aevirontos@gmail.com>
+Date:   Mon Sep 30 20:33:45 2019 -0400
+
+    prefixer working on mac
+
+[33mcommit 966706111b8ca6e24f9a75930a67404a5d88fd1c[m
+Merge: b45df3d f9097b2
+Author: Aevi <aevirontos@gmail.com>
+Date:   Mon Sep 30 20:04:36 2019 -0400
+
+    Merge branch 'master' of https://github.com/aevi1103/advanced-css-course
+
+[33mcommit b45df3d277b781a9bf15fe7cdba39775e35a1fe8[m
+Author: Aevi <aevirontos@gmail.com>
+Date:   Mon Sep 30 20:04:33 2019 -0400
+
+    Update package.json
+    
+    test
+
+[33mcommit f9097b2729595257c3f47dd964f5f970a6d688a9[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Mon Sep 30 20:01:40 2019 -0400
+
+    adding build scripts
+
+[33mcommit 4c5a90a6e51be9541e9f03ca450ce25cfe25c026[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Sat Sep 28 20:07:15 2019 -0400
+
+    added image density switching
+
+[33mcommit cf836f43987a1cc8e4862d159d3322655c8b0a51[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Sat Sep 28 19:36:09 2019 -0400
+
+    added media queries to support mobile screens
+
+[33mcommit 646bd4c0f8b2a32b1d0c5d29ad74b56abcffb010[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Sat Sep 28 13:23:57 2019 -0400
+
+    completed pop up section
+
+[33mcommit 9d5c5b428838a68d9ff79fcad8e472147bce2aa9[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Fri Sep 27 21:29:13 2019 -0400
+
+    added navigation
+
+[33mcommit c9a29022bfb6d496c08fdc878ca75a2332f7704b[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Thu Sep 26 19:26:07 2019 -0400
+
+    section footer book and footer complete
+
+[33mcommit 2983a5a565d64d61c589b24c07052a7faa2bc944[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Wed Sep 25 19:28:10 2019 -0400
+
+    added user feedback and background video
+
+[33mcommit 50af75e5a3f5f05f13c2a72d6aad05de0fd63fe1[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Tue Sep 24 20:46:10 2019 -0400
+
+    completed section tours
+
+[33mcommit fd4f797b96ad49810509801d08444ffd14e03b39[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Sun Sep 22 19:37:04 2019 -0400
+
+    styled section features
+
+[33mcommit 8a108a9b6a7f81b6cf8292e28ee9a895805c5111[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Sun Sep 22 16:23:46 2019 -0400
+
+    about section part 1 complete
+
+[33mcommit 0ce1e42c9a3ccef06ad496a275d1382bbfd79f79[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Tue Sep 17 21:26:41 2019 -0400
+
+    converted to BEM
+
+[33mcommit 7362c129eb66cc4a274d0aa20cedfef585487070[m
+Author: aevi <aevirontos@gmail.com>
+Date:   Sun Sep 15 20:50:18 2019 -0400
+
+    aded styles
+
+[33mcommit 3ccc3f6db47bc371722408ac13a414f7e33f9c7d[m[33m ([m[1;31mupstream/master[m[33m)[m
+Merge: f5af22f 4bf4450
+Author: Jonas Schmedtmann <hello@jonas.io>
+Date:   Thu Jun 13 15:02:50 2019 +0100
+
+    Merge branch 'master' of https://github.com/jonasschmedtmann/advanced-css-course
+
+[33mcommit f5af22fc765ed151ad29acde391b2f0e1ced21da[m
+Author: Jonas Schmedtmann <hello@jonas.io>
+Date:   Thu Jun 13 15:02:06 2019 +0100
+
+    Updated FAQs
+
+[33mcommit 4bf44506e8848a94bfe4a10120cc85e614946106[m
+Author: Jonas Schmedtmann <hello@jonas.io>
+Date:   Tue Aug 14 20:39:20 2018 +0100
+
+    Fixed rgba typo
+
+[33mcommit f3e9436d780b98e3b9a633f12bf19cba7e92275d[m
+Author: Jonas Schmedtmann <hello@jonas.io>
+Date:   Wed Aug 8 15:32:10 2018 +0100
+
+    Fixed small HTML bug
+
+[33mcommit e9a021bec100c6156ac55a49aad11bb4c1cc03dc[m
+Author: jonasschmedtmann <hello@jonas.io>
+Date:   Fri Feb 23 18:57:17 2018 +0000
+
+    Updated slides
+
+[33mcommit c6b77c0b801d9b0c6fcf695f7493d941265dc8fa[m
+Author: jonasschmedtmann <hello@jonas.io>
+Date:   Wed Dec 20 10:29:23 2017 +0000
+
+    Updated for CSS Grid 🚀
+
+[33mcommit d673071c8c401af8a1bc79b71cf1bc23ab01bbab[m
+Author: jonasschmedtmann <hello@jonas.io>
+Date:   Tue Nov 7 10:08:18 2017 +0000
+
+    Added more npm problem fixes
+
+[33mcommit 336c0fd49b5dfbb99792928f87c4d943ed97a4af[m
+Author: jonasschmedtmann <hello@jonas.io>
+Date:   Tue Nov 7 10:04:05 2017 +0000
+
+    Added npm problem fixes
+
+[33mcommit ca08c9144fb30415fe43ad5138d2888645f5375b[m
+Author: jonasschmedtmann <hello@jonas.io>
+Date:   Wed Oct 25 11:58:54 2017 +0100
+
+    Added VSCode setup doc
+
+[33mcommit 6f577ddb083f3708feac5050b34beb2970bf6da6[m
+Author: jonasschmedtmann <hello@jonas.io>
+Date:   Wed Oct 25 11:18:37 2017 +0100
+
+    Fixed small issues
+
+[33mcommit b0767924975fed2c40d7b92bdcb8b3cfde212abe[m
+Author: jonasschmedtmann <hello@jonas.io>
+Date:   Mon Oct 23 15:02:39 2017 +0100
+
+    Course launch 🚀
+
+[33mcommit 73d2cd61764fec18fe5ed8ce1373eeef3dca8835[m
+Author: jonasschmedtmann <hello@jonas.io>
+Date:   Mon Oct 23 13:08:50 2017 +0100
+
+    Updated FAQ for course launch 🚀
+
+[33mcommit f8ef5f89c47f34dc22769c3698013a6fab41bcac[m
+Author: jonasschmedtmann <hello@jonas.io>
+Date:   Mon Oct 23 12:59:38 2017 +0100
+
+    Updated FAQ
+
+[33mcommit 4650cafadb5ecce046aad53c69a2797c28a3c2cc[m
+Author: jonasschmedtmann <hello@jonas.io>
+Date:   Mon Oct 23 12:38:29 2017 +0100
+
+    Added description
+
+[33mcommit a363ce31cb8beb92fd6a92217a07bb7efe36bdc7[m
+Author: jonasschmedtmann <hello@jonas.io>
+Date:   Mon Oct 23 11:03:46 2017 +0100
+
+    Initial commit
+
+[33mcommit 410beb9afd4f0942df67aeac513928157b97e778[m
+Author: Jonas Schmedtmann <hello@jonas.io>
+Date:   Mon Oct 23 10:49:19 2017 +0100
+
+    Initial commit
