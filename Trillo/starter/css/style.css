@@ -42,6 +42,9 @@ Grey dark 3: #999
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+  @media only screen and (max-width: 68.75em) {
+    html {
+      font-size: 50%; } }
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -70,6 +73,12 @@ Search
   display: flex;
   align-items: center;
   justify-content: center; }
+  @media only screen and (max-width: 31.25em) {
+    .search {
+      order: 1;
+      flex: 0 0 100%;
+      align-content: center;
+      background-color: var(--color-grey-light-2); } }
   .search__input {
     font-family: inherit;
     font-size: inherit;
@@ -85,11 +94,18 @@ Search
       outline: none;
       width: 100%;
       background-color: var(--color-grey-light-3); }
+      @media only screen and (max-width: 31.25em) {
+        .search__input:focus {
+          background-color: var(--color-grey-light-2);
+          padding: .7rem 2rem .7rem .6rem; } }
     .search__input::-webkit-input-placeholder {
       font-weight: 100;
       color: var(--color-grey-light-4); }
   .search__input:focus + .search__button {
     background-color: var(--color-grey-light-3); }
+    @media only screen and (max-width: 31.25em) {
+      .search__input:focus + .search__button {
+        background-color: var(--color-grey-light-2); } }
   .search__button {
     border: none;
     background-color: var(--color-grey-light-2);
@@ -146,10 +162,23 @@ User Nav
   font-size: 1.4rem;
   list-style: none;
   margin-top: 3.5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .side-nav {
+      display: flex;
+      margin: 0; } }
+  @media only screen and (max-width: 56.25em) {
+    .side-nav {
+      font-size: 1.2rem; } }
   .side-nav__item {
     position: relative; }
     .side-nav__item:not(:last-child) {
       margin-bottom: .5rem; }
+      @media only screen and (max-width: 56.25em) {
+        .side-nav__item:not(:last-child) {
+          margin-bottom: 0; } }
+    @media only screen and (max-width: 56.25em) {
+      .side-nav__item {
+        flex: 1; } }
   .side-nav__item::before {
     content: "";
     position: absolute;
@@ -176,11 +205,24 @@ User Nav
     display: flex;
     align-items: center;
     z-index: 100; }
+    @media only screen and (max-width: 56.25em) {
+      .side-nav__link:link, .side-nav__link:visited {
+        justify-content: center;
+        padding: 2rem; } }
+    @media only screen and (max-width: 50em) {
+      .side-nav__link:link, .side-nav__link:visited {
+        flex-direction: column;
+        justify-content: center;
+        padding: 1.2rem 1.5rem; } }
   .side-nav__icon {
     width: 1.75rem;
     height: 1.75rem;
     margin-right: 2rem;
     fill: currentColor; }
+    @media only screen and (max-width: 50em) {
+      .side-nav__icon {
+        margin: 0;
+        margin-bottom: 1rem; } }
 
 .legal {
   font-size: 1.2rem;
@@ -188,6 +230,9 @@ User Nav
   padding: 2.5rem;
   color: var(--color-grey-light-4);
   align-self: flex-end; }
+  @media only screen and (max-width: 56.25em) {
+    .legal {
+      display: none; } }
 
 .gallery {
   display: flex; }
@@ -205,6 +250,10 @@ User Nav
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1.8rem 3rem; }
+    @media only screen and (max-width: 56.25em) {
+      .overview__heading {
+        padding: 1.8rem 1.7rem;
+        font-size: 1.7rem; } }
   .overview__stars {
     margin-right: auto;
     display: flex; }
@@ -216,6 +265,9 @@ User Nav
     font-size: 1.2rem;
     display: flex;
     align-items: center; }
+    @media only screen and (max-width: 56.25em) {
+      .overview__location {
+        font-size: 1.2rem; } }
   .overview__icon-location {
     margin-right: .5rem; }
   .overview__rating {
@@ -245,6 +297,9 @@ User Nav
   padding-bottom: 2px;
   display: inline-block;
   transition: all .2s; }
+  @media only screen and (max-width: 50em) {
+    .btn-inline {
+      align-self: center; } }
   .btn-inline span {
     margin-left: 3px;
     transition: margin-left .2s; }
@@ -305,7 +360,9 @@ User Nav
     border-radius: 50%;
     border: 3px solid white; }
     .recommend__photo:not(:last-child) {
-      margin-right: -1.5rem; }
+      margin-right: -2rem; }
+  .recommend__friends {
+    display: flex; }
 
 .review {
   background-color: #fff;
@@ -314,6 +371,10 @@ User Nav
   margin-bottom: 3.5rem;
   position: relative;
   overflow: hidden; }
+  @media only screen and (max-width: 56.25em) {
+    .review {
+      padding: 2rem;
+      margin-bottom: 2rem; } }
   .review__text {
     padding-bottom: 2rem;
     z-index: 10;
@@ -359,6 +420,13 @@ User Nav
     font-weight: 300;
     margin-bottom: 2.5rem;
     text-transform: uppercase; }
+    @media only screen and (max-width: 50em) {
+      .cta__book-now {
+        padding: 0 2rem;
+        line-height: 2.5rem; } }
+  @media only screen and (max-width: 56.25em) {
+    .cta {
+      padding: 2.5rem 0; } }
 
 .btn {
   font-size: 1.5rem;
@@ -399,6 +467,11 @@ User Nav
   background-color: var(--color-grey-light-1);
   box-shadow: var(--shadow-dark);
   min-height: 50rem; }
+  @media only screen and (max-width: 75em) {
+    .container {
+      margin: 0;
+      max-width: 100%;
+      width: 100%; } }
 
 .header {
   height: 7rem;
@@ -408,9 +481,16 @@ User Nav
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  @media only screen and (max-width: 31.25em) {
+    .header {
+      flex-wrap: wrap;
+      height: 11rem; } }
 
 .content {
   display: flex; }
+  @media only screen and (max-width: 56.25em) {
+    .content {
+      flex-direction: column; } }
 
 .sidebar {
   background-color: var(--color-dark-1);
@@ -428,6 +508,12 @@ User Nav
   padding: 4.5rem;
   background-color: var(--color-grey-light-2);
   border-bottom: var(--line); }
+  @media only screen and (max-width: 56.25em) {
+    .detail {
+      padding: 2rem; } }
+  @media only screen and (max-width: 50em) {
+    .detail {
+      flex-direction: column; } }
 
 .description {
   flex: 0 0 60%;
@@ -436,9 +522,20 @@ User Nav
   background-color: #fff;
   box-shadow: var(--shadow-light);
   padding: 3rem; }
+  @media only screen and (max-width: 56.25em) {
+    .description {
+      padding: 2rem;
+      margin-right: 2rem; } }
+  @media only screen and (max-width: 50em) {
+    .description {
+      margin-right: 0;
+      margin-bottom: 2rem; } }
 
 .user-reviews {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center; }
+  @media only screen and (max-width: 50em) {
+    .user-reviews {
+      align-items: stretch; } }

@@ -21,6 +21,13 @@ Search
     align-items: center;
     justify-content: center;
 
+    @media only screen and (max-width: $bp-xs) {
+        order: 1;
+        flex: 0 0 100%;
+        align-content: center;
+        background-color: var(--color-grey-light-2);
+    }
+
     &__input {
         font-family: inherit;
         font-size: inherit;
@@ -37,16 +44,25 @@ Search
             outline: none;
             width: 100%;
             background-color: var(--color-grey-light-3);
+
+            @media only screen and (max-width: $bp-xs) {
+                background-color: var(--color-grey-light-2);
+                padding: .7rem 2rem .7rem .6rem;
+            }
         }
 
         &::-webkit-input-placeholder {
             font-weight: 100;
-            color: var(--color-grey-light-4)
+            color: var(--color-grey-light-4);
         }
     }
 
     &__input:focus + &__button {
         background-color: var(--color-grey-light-3);
+
+        @media only screen and (max-width: $bp-xs) {
+            background-color: var(--color-grey-light-2);
+        }
     }
 
     &__button {
@@ -91,6 +107,10 @@ User Nav
         height: 100%;
         display: flex;
         align-items: center;
+
+        // @media only screen and (max-width: $bp-medium) {
+        //     padding: 2rem 2rem;
+        // }
     }
 
     & > *:hover {

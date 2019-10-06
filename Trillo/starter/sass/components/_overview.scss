@@ -10,6 +10,11 @@
         text-transform: uppercase;
         letter-spacing: 1px;
         padding: 1.8rem 3rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            padding: 1.8rem 1.7rem;
+            font-size: 1.7rem;
+        }
     }
 
     &__stars {
@@ -28,6 +33,10 @@
         font-size: 1.2rem;
         display: flex;
         align-items: center;
+
+        @media only screen and (max-width: $bp-medium) {
+            font-size: 1.2rem;
+        }
     }
 
     &__icon-location {
@@ -73,7 +82,9 @@
     display: inline-block;
     transition: all .2s;
 
-
+    @media only screen and (max-width: $bp-small) {
+        align-self: center;
+    }
 
     & span {
         margin-left: 3px;
