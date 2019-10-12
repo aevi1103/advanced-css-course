@@ -195,3 +195,15 @@ grids.forEach((e,i) => {
     `)
 
 })
+
+
+const gallery = $('.gallery');
+gallery.empty();
+
+let i = 1;
+while (i < 15) {
+    gallery.append(`<figure class="gallery_item gallery__item--${i}">
+        <img src="img/gal-${i}.jpeg" alt="gal image ${i}" class="gallery__img">
+    </figure>`)
+    i++;
+}
