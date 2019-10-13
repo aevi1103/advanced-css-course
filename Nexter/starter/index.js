@@ -70,7 +70,7 @@ const grids = [
             },
             {
                 key: 'price',
-                icon: 'icon-icon-key',
+                icon: 'icon-key',
                 subtitle: '$2,250,000'
             }
         ]
@@ -95,7 +95,7 @@ const grids = [
             },
             {
                 key: 'price',
-                icon: 'icon-icon-key',
+                icon: 'icon-key',
                 subtitle: '$850,000'
             }
         ]
@@ -120,7 +120,7 @@ const grids = [
             },
             {
                 key: 'price',
-                icon: 'icon-icon-key',
+                icon: 'icon-key',
                 subtitle: '$5,850,000'
             }
         ]
@@ -145,7 +145,7 @@ const grids = [
             },
             {
                 key: 'price',
-                icon: 'icon-icon-key',
+                icon: 'icon-key',
                 subtitle: '$650,000'
             }
         ]
